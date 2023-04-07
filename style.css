@@ -1,0 +1,161 @@
+p {
+    color:white;
+}
+body {
+    color: white;
+    background-color: hsl(216, 53%, 9%);
+
+}
+
+.container {
+    display: flex;
+
+}
+
+.header {
+    width: 80%;
+    padding-top: 35px;
+    padding-left: 250px;
+    background-color: hsl(216, 53%, 9%);
+    justify-content: center;
+    justify-content: space-between;
+    float: right;
+    padding-right: 15%;
+
+}
+
+.menu {
+    float: right;
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 105px;
+    margin-right: 50px;
+    text-decoration-color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.body {
+    width: 80%;
+    padding-left: 25%;
+}
+
+.butonHadiBasla {
+    color: var(white);
+    background: darkcyan;
+    padding: 12px 48px;
+    border-radius: 9999px;
+
+}
+
+.ozellikler {
+    padding-top: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.ozelliklerBirSutun {
+    display: flex;
+    padding: 15px;
+
+}
+
+.ozel-1-2 {
+    padding: 20px;
+    float: left;
+}
+
+.ozel-1-1 {
+    padding: 20px;
+    float: left;
+}
+
+.ozel-2-1 {
+    padding: 20px;
+    float: left;
+}
+
+.ozel-2-2 {
+    padding: 20px;
+    float: left;
+}
+
+.stayProd {
+    display: flex;
+}
+
+.stayImg {
+    float: left;
+    padding-left: 15%;
+    padding-right: 10%;
+}
+
+.stayText {
+    font-size: 14px;
+    float: right;
+    padding-right: 25%;
+}
+.card{
+    display: flex;
+   padding-left: 25%;
+   padding-right: 25%;
+   padding-top: 10%;
+   padding-bottom: 10%;
+}
+.card1{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    opacity: 10%;
+    padding-right:10px;
+    margin-right:15px;
+}
+.card2{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    opacity: 10%;
+    padding-left:10px;
+    margin-left:15px;
+    margin-right:15px;
+
+}
+.card3{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    opacity: 10%;
+    padding-left:10px;
+    margin-left:15px;
+}
+.iletisim{
+    padding-top: 1px;
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: hsl(216, 53%, 9%);
+    opacity: 50%;
+    box-shadow: 10px 10px 10px 20px #000000;
+    border-style:none;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.iletisimInput{
+    display: flex;
+    justify-content: center;
+
+}
+input[type=text] {
+    text-align: center;
+    border: 5px;
+    margin: 5px;
+    border-radius: 10px; 
+    width: 500px;
+    height: 50px;
+}
